@@ -84,3 +84,32 @@ button:hover {
   background-color: rgb(143, 143, 143);
   cursor: pointer; /*imleçi parmak işareti yapar*/
 }
+article {
+  background-color: rgba(0, 0, 0, 0.568);
+  border-radius: 5px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  
+}
+
+.homepage{
+  /*border: 1px solid; kapladığı alanı görmek için kullandım.*/
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(240, 60, 60);
+}
+.hpexp {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+}
+
+
+
