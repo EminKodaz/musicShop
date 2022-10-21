@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  background: rgb(134, 160, 160);
+}
+body::-webkit-scrollbar {
+  background-color: black;
+  width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(252, 252, 252);
+  border-radius: 5px;
+}
+.navContainer {
+  display: flex; /* Satırı esnek yapar */
+  justify-content: center; /*elemanları yatayda ortaladık*/
+  align-items: center; /*elemanları dikey eksende ortaladık*/
+  height: 5vh;
+  background-color: rgba(0, 0, 0, 0.769);
+  backdrop-filter: blur(10px);
+}
+.navUL {
+  display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  margin-right: 1.5rem;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  border: 2px solid;
+  width: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 10px 0px;
+  margin: 1rem;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s; /**/
+}
+.card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+h1 {
+  font-size: 1.5rem;
+}
+button {
+  margin: 1rem;
+  width: 12rem;
+  height: 2rem;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 1s;
+  border: none;
+}
+button:hover {
+  color: black;
+  background-color: rgb(143, 143, 143);
+  cursor: pointer; /*imleçi parmak işareti yapar*/
+}
